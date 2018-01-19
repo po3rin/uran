@@ -1,0 +1,17 @@
+{
+  "name": "uran",
+  "description": "うらん。のアーティストサイトです。",
+  "main": "",
+  "authors": [
+    "中村弘武 <abctail30@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/po3rin/uran",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
