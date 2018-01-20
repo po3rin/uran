@@ -19,8 +19,6 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'favicon-16x16.png' },
       { rel: 'manifest', href: '/manifest.json' },
-      { href: 'https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css', rel: 'stylesheet'},
-      { href: 'https://fonts.googleapis.com/css?family=Amatic+SC', rel: 'stylesheet'},
       { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
       { href: 'https://fonts.googleapis.com/css?family=Roboto:300,400', rel: 'stylesheet' }
     ]
