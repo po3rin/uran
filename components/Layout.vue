@@ -4,11 +4,17 @@
       .layout__header_left
       .layout__header_right
         .layout__header_right-region(@click="goHome")
-          p HOME
+          md-button
+            md-icon home
+            span Home
         .layout__header_right-region(@click="goMusic")
-          p MUSIC
+          md-button
+            md-icon queue_music
+            span Music
         .layout__header_right-region(@click="goBlog")
-          p BLOG
+          md-button
+            md-icon library_books
+            span Blog
     main.layout__main
       slot
     footer.layout__footer
@@ -33,6 +39,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  .md-icon {
+    margin-right: 8px;
+  }
   .hi__section {
     padding-top: 64px;
   }
@@ -58,7 +67,7 @@ export default {
           height: 44px;
           width: 100px;
           @media screen and (max-width: 480px) {
-            width: 60px;
+            width: 100px;
           }
         }
       }

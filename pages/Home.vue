@@ -57,6 +57,7 @@ export default {
 .fix-button {
   position: fixed;
   margin: 0;
+  z-index: 0;
   &_p1 {
     bottom: 50%;
     left: 8%;

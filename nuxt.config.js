@@ -11,7 +11,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'uran airtist project' },
-      { name: "format-detection", content: "telephone=no" }
+      { name: 'format-detection', content: 'telephone=no' }
 
     ],
     link: [
@@ -20,7 +20,11 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'favicon-16x16.png' },
       { rel: 'manifest', href: '/manifest.json' },
       { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css?family=Roboto:300,400', rel: 'stylesheet' }
+      { href: 'https://fonts.googleapis.com/css?family=Roboto:300,400', rel: 'stylesheet' },
+      { rel: 'prefetch', href: '~assets/Believe.mp4'},
+      { rel: 'prefetch', href: '~assets/RainyDay.mp4'},
+      { rel: 'prefetch', href: '~assets/anatanomotohe.mp4'},
+      { rel: 'prefetch', href: '~assets/energy.mp4'}
     ]
   },
   css: [
