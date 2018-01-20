@@ -42,8 +42,10 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
     "pug": "^2.0.0-beta6",
     "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.6",
     "vue-apollo": "^3.0.0-alpha.2",
     "vue-markdown": "^2.2.4"
   }
