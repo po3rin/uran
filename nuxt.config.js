@@ -34,8 +34,8 @@ module.exports = {
   ],
   loading: { color: '#3B8070' },
   build: {
-    extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+    extend (config, { isDev, isClient }) {
+      if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
