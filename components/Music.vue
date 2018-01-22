@@ -1,28 +1,28 @@
 <template lang="pug">
-  section.hi__section
+  section.music.hi__section
     h2 Music
     .content
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic3
-        .mdl-card__supporting-text pellentesque lacus eleifend lacinia...
+        .mdl-card__supporting-text Believe
         .mdl-card__actions.mdl-card--border
           a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play3") Play
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic2
-        .mdl-card__supporting-text Mauris sagittis pellentesque lacus eleifend lacinia...
+        .mdl-card__supporting-text RainyDay
         .mdl-card__actions.mdl-card--border
           a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play2") Play
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic1
-        .mdl-card__supporting-text Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        .mdl-card__supporting-text あなたのもとへ
         .mdl-card__actions.mdl-card--border
           a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play1") Play
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic4
-        .mdl-card__supporting-text Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        .mdl-card__supporting-text Energy
         .mdl-card__actions.mdl-card--border
           a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play4") Play
         .mdl-card__menu

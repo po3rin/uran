@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.hi__section
+  section.blog.hi__section
     h2 Blog
     .blog-header(v-for="post in allPosts")
       h3
@@ -57,6 +57,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.blog {
+  padding-bottom: 64px;
+}
 .blog-header {
   border-left: 2px solid gray;
   padding: 0 12px;
@@ -70,7 +73,7 @@ export default {
     padding-top: 8px;
   }
   &:hover {
-    border-left: #448aff 4px solid ;
+    border-left: #448aff 2px solid ;
   }
 }
 .md-theme-default a:not(.md-button) {

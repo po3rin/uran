@@ -27,7 +27,7 @@ module.exports = {
     { src: 'typicons.font/src/font/typicons.css' },
     { src: 'assets/main.css'}
   ],
-  loading: { color: '#3B8070' },
+  loading: { color: '#448aff' },
   build: {
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {

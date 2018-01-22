@@ -2,18 +2,17 @@
   div
     layout
       top
-      music.music
       profile.profile
+      music.music
       blog.blog
-      sns
       md-button.md-icon-button.md-raised.fix-button.fix-button_p1(@click="goTop")
         md-icon publish
+      md-button.md-icon-button.md-raised.fix-button.fix-button_p4(@click="goProfile")
+        md-icon person
       md-button.md-icon-button.md-raised.fix-button.fix-button_p2(@click="goMusic")
         md-icon queue_music
       md-button.md-icon-button.md-raised.fix-button.fix-button_p3(@click="goBlog")
         md-icon library_books
-      md-button.md-icon-button.md-raised.fix-button.fix-button_p4(@click="goProfile")
-        md-icon person
 </template>
 
 <script>
@@ -22,7 +21,6 @@ import Top from '~/components/Top'
 import Profile from '~/components/Profile'
 import Music from '~/components/Music'
 import Blog from '~/components/Blog'
-import Sns from '~/components/Sns'
 
 export default {
   components: {
@@ -30,8 +28,7 @@ export default {
     Top,
     Profile,
     Music,
-    Blog,
-    Sns
+    Blog
   },
   methods: {
     goTop: () => {

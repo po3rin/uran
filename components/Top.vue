@@ -9,9 +9,9 @@
     background-position: right top;
     background-size:auto 100%;
     width: 100%;
-    height: 40vh;
+    height: 26vh;
     @media screen and (min-width: 800px) {
-      height: 40vh;
+      height: 30vh;
     }
   }
 </style>
