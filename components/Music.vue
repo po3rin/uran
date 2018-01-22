@@ -29,25 +29,25 @@
     md-dialog(:md-active.sync="showDialog1")
       .space
       md-dialog-title Believe
-      video(src="~/assets/Believe.mp4" type="video/mp4" poster="~assets/works1.png" controls="controls" autoplay preload)
+      video(src="~assets/Believe.mp4" type="video/mp4" poster="~assets/works1.png" controls="controls" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog1 = false") Close
     md-dialog(:md-active.sync="showDialog2")
       .space
       md-dialog-title RainyDay
-      video(src="~/assets/RainyDay.mp4" type="video/mp4" poster="~assets/works2.png" controls="controls" autoplay preload)
+      video(src="~assets/RainyDay.mp4" type="video/mp4" poster="~assets/works2.png" controls="controls" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog2 = false") Close
     md-dialog(:md-active.sync="showDialog3")
       .space
       md-dialog-title あなたのもとへ
-      video(src="~/assets/anatanomotohe.mp4" type="video/mp4" poster="~assets/works3.png" controls="controls" autoplay preload)
+      video(src="~assets/anatanomotohe.mp4" type="video/mp4" poster="~assets/works3.png" controls="controls" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog3 = false") Close
     md-dialog(:md-active.sync="showDialog4")
       .space
       md-dialog-title Energy
-      video(src="~/assets/energy.mp4" type="video/mp4" poster="~assets/works4.png" controls="controls" autoplay preload)
+      video(src="~assets/energy.mp4" type="video/mp4" poster="~assets/works4.png" controls="controls" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog4 = false") Close
 </template>

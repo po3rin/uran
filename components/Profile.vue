@@ -6,6 +6,3 @@
     p 楽曲制作/J-POPのジャンルでも制作いたします。
     p WEBサイト制作/オリジナルのPRサイトを制作いたします。
 </template>
-
-<style scoped lang="scss">
-</style>
