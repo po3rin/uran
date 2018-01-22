@@ -4,7 +4,7 @@
 
 <style scoped lang="scss">
   .top {
-    background-image: url("~assets/uran_de.jpg");
+    background-image: url("~assets/uran13.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-size:auto 100%;
