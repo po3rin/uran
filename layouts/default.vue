@@ -19,6 +19,9 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+ul, li {
+  padding: 0;
+}
 p, small, a, h1, h2, h3, h4{
   font-family: Roboto, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   font-weight: 100;

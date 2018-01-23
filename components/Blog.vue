@@ -6,7 +6,7 @@
         router-link(:to="`/blogs/${post.slug}`") {{ post.title }}
       p {{ ShapedDate(post.dateAndTime, post.authors[0].name) }}
       .blog-header__chip
-        md-chip(v-for="tag in post.tags")
+        md-chip(v-for="tag in post.tags" :key="tag")
           small {{ tag }}
       .blog-header__content
         router-link(:to="`/blogs/${post.slug}`")
@@ -59,21 +59,21 @@ export default {
 <style scoped lang="scss">
 .blog {
   padding-bottom: 64px;
-}
-.blog-header {
-  border-left: 4px solid gray;
-  padding: 0 12px;
-  margin: 24px auto;
-  width: 90%;
-  transition: all .4s ease;
-  &__chip {
-    padding: 5px 0;
-  }
-  &__content {
-    padding-top: 8px;
-  }
-  &:hover {
-    border-left: #448aff 4px solid ;
+  &-header {
+    border-left: 4px solid gray;
+    padding: 0 12px;
+    margin: 24px auto;
+    width: 90%;
+    transition: all .4s ease;
+    &__chip {
+      padding: 5px 0;
+    }
+    &__content {
+      padding-top: 8px;
+    }
+    &:hover {
+      border-left: #448aff 4px solid ;
+    }
   }
 }
 .md-theme-default a:not(.md-button) {

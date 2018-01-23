@@ -5,14 +5,19 @@
       profile.profile
       music.music
       blog.blog
-      md-button.md-icon-button.md-raised.fix-button.fix-button_p1(@click="goTop")
-        md-icon publish
-      md-button.md-icon-button.md-raised.fix-button.fix-button_p4(@click="goProfile")
-        md-icon person
-      md-button.md-icon-button.md-raised.fix-button.fix-button_p2(@click="goMusic")
-        md-icon queue_music
-      md-button.md-icon-button.md-raised.fix-button.fix-button_p3(@click="goBlog")
-        md-icon library_books
+      ul
+        li
+          md-button.md-icon-button.md-raised.fix-button.fix-button_p1(@click="goTop")
+            md-icon publish
+        li
+          md-button.md-icon-button.md-raised.fix-button.fix-button_p4(@click="goProfile")
+            md-icon person
+        li
+          md-button.md-icon-button.md-raised.fix-button.fix-button_p2(@click="goMusic")
+            md-icon queue_music
+        li
+          md-button.md-icon-button.md-raised.fix-button.fix-button_p3(@click="goBlog")
+            md-icon library_books
 </template>
 
 <script>

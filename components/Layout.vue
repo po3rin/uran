@@ -1,22 +1,22 @@
 <template lang="pug">
   div
     header.layout__header
-      .layout__header_left
-      .layout__header_right
-        .layout__header_right-region(@click="goHome")
-          md-button
-            span Home
-        .layout__header_right-region(@click="goMusic")
-          md-button
-            span Music
-        .layout__header_right-region(@click="goBlog")
-          md-button
-            span Blog
+      nav.layout__header_right
+        ul.layout__header_right
+          li.layout__header_right-region(@click="goHome")
+            md-button
+              span Home
+          li.layout__header_right-region(@click="goMusic")
+            md-button
+              span Music
+          li.layout__header_right-region(@click="goBlog")
+            md-button
+              span Blog
     main.layout__main
       slot
     footer.layout__footer
       p
-      small Copyright&copy;Uran All right reserved.
+        small Copyright&copy;Uran All right reserved.
 </template>
 
 <script>
@@ -51,8 +51,6 @@ export default {
       opacity: .9;
       width: 100%;
       z-index: 100;
-      &_left {
-      }
       &_right {
         display: flex;
         flex-direction: row;

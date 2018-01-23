@@ -6,7 +6,7 @@
           h1 {{ post.title }}
           p {{ ShapedDate(post.dateAndTime, post.authors[0].name) }}
           .blog-header__chip
-            md-chip(v-for="tag in post.tags")
+            md-chip(v-for="tag in post.tags" :key="tag")
               small {{ tag }}
           <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
