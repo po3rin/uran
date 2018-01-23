@@ -17,7 +17,7 @@ module.exports = {
       { property: "og:url", content: "https://uran-artist-site.herokuapp.com/uran/home" },
       { property: "og:title", content: "シンガーソングライター「うらん。」" },
       { property: "og:description", content: "楽曲制作、WEB制作やってます。" },
-      { property: "og:image", content: "https://uran-artist-site.herokuapp.com/uran/_nuxt/img/works3.834fe43.png" }
+      { property: "og:image", content: "https://uran-artist-site.herokuapp.com/uran/_nuxt/img/works3.23a613b.png" }
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: 'apple-touch-icon.png' },
