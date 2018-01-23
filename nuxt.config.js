@@ -11,8 +11,13 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'uran airtist project' },
-      { name: 'format-detection', content: 'telephone=no' }
-
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@catch_top_dream" },
+      { property: "og:url", content: "https://uran-artist-site.herokuapp.com/uran/home" },
+      { property: "og:title", content: "シンガーソングライター「うらん。」のWEBサイト" },
+      { property: "og:description", content: "楽曲制作、WEB制作やってます。" },
+      { property: "og:image", content: "~/assets/uran-top.jpg" }
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: 'apple-touch-icon.png' },
