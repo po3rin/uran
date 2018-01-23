@@ -61,11 +61,11 @@ export default {
   padding-bottom: 64px;
 }
 .blog-header {
-  border-left: 2px solid gray;
+  border-left: 4px solid gray;
   padding: 0 12px;
   margin: 24px auto;
   width: 90%;
-  transition: all .2s ease;
+  transition: all .4s ease;
   &__chip {
     padding: 5px 0;
   }
@@ -73,7 +73,7 @@ export default {
     padding-top: 8px;
   }
   &:hover {
-    border-left: #448aff 2px solid ;
+    border-left: #448aff 4px solid ;
   }
 }
 .md-theme-default a:not(.md-button) {
