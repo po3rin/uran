@@ -1,12 +1,12 @@
 <template lang="pug">
-  section.music.hi__section
+  section.hi__section
     h2 Music
     .content
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic3
-        .mdl-card__supporting-text Believe
+        .mdl-card__supporting-text あなたのもとへ
         .mdl-card__actions.mdl-card--border
-          a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play3") Play
+          a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play1") Play
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic2
@@ -16,9 +16,9 @@
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic1
-        .mdl-card__supporting-text あなたのもとへ
+        .mdl-card__supporting-text Believe
         .mdl-card__actions.mdl-card--border
-          a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play1") Play
+          a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(@click="play3") Play
         .mdl-card__menu
       .demo-card-wide.mdl-card.mdl-shadow--2dp
         .mdl-card__title.pic4
@@ -28,26 +28,26 @@
         .mdl-card__menu
     md-dialog(:md-active.sync="showDialog1")
       .space
-      md-dialog-title Believe
-      video(src="~assets/Believe.mp4" type="video/mp4" controls="controls" width="100%" autoplay preload)
+      md-dialog-title あなたのもとへ
+      video(src="~assets/anatanomotohe.mp4" type="video/mp4" controls="controls" width="100%" poster="~assets/works1.png" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog1 = false") Close
     md-dialog(:md-active.sync="showDialog2")
       .space
       md-dialog-title RainyDay
-      video(src="~assets/RainyDay.mp4" type="video/mp4" controls="controls" width="100%" autoplay preload)
+      video(src="~assets/RainyDay.mp4" type="video/mp4" controls="controls" width="100%" poster="~assets/works2.png" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog2 = false") Close
     md-dialog(:md-active.sync="showDialog3")
       .space
-      md-dialog-title あなたのもとへ
-      video(src="~assets/anatanomotohe.mp4" type="video/mp4" controls="controls" width="100%" autoplay preload)
+      md-dialog-title Believe
+      video(src="~assets/Believe.mp4" type="video/mp4" controls="controls" width="100%" poster="~assets/works3.png" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog3 = false") Close
     md-dialog(:md-active.sync="showDialog4")
       .space
       md-dialog-title Energy
-      video(src="~assets/energy.mp4" type="video/mp4" controls="controls" width="100%" autoplay preload)
+      video(src="~assets/energy.mp4" type="video/mp4" controls="controls" width="100%" poster="~assets/works4.png" autoplay preload)
       md-dialog-actions
         md-button.md-primary(@click="showDialog4 = false") Close
 </template>
